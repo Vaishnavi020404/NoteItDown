@@ -30,6 +30,9 @@ router.delete("/:id",(req,res)=>{
     res.status(200).json({message:"Notes deleted Successfully"})
 })
 
+module.exports = router;
+
+
 
 
 
