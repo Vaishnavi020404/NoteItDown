@@ -3,17 +3,8 @@ ThinkNotes
 Project Description:
 ThinkNotes is a full-stack notes application built with Node.js and Express. It demonstrates REST API design, CRUD operations, and full-stack architecture.
 
-Project Structure (current):
+Project Structure:
 
-ThinkNotes/
-├── back-end/
-│   ├── node_modules/
-│   ├── server.js
-│   ├── notes-router.js
-│   ├── package.json
-│   └── package-lock.json
-└── README.md
-└── DAILY_PROGRESS.md      # Daily updates file
 
 
 Technologies Used:
