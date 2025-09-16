@@ -1,4 +1,4 @@
-ThinkNotes
+NoteItDown
 
 Project Description:
 ThinkNotes is a full-stack notes application built with Node.js and Express. It demonstrates REST API design, CRUD operations, and full-stack architecture.
@@ -20,7 +20,7 @@ POST /api/notes → Create a new note
 Setup & Run:
 
 git clone https://github.com/Vaishnavi020404/ThinkNotes.git
-cd ThinkNotes/back-end
+cd NoteItDown/back-end
 npm install
 npm run dev
 

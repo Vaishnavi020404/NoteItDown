@@ -6,8 +6,11 @@ import dotenv from "dotenv";
 dotenv.config();
 
 console.log(process.env.MONGO_URI);
-
+``
 const app = express();
+
+//middleware
+app.use(express.json());
 
 connectDB();
 
