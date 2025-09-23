@@ -106,3 +106,48 @@
    - Upstash → cloud-hosted Redis, accessed via REST API.
 5. **Environment Variables for secrets**: `.env` file usage for Redis URL and token.
 6. **Debugging CommonJS/ESM imports** in Node.js.
+
+
+## 23-Sep-25
+
+# Notes - 23-Sep-25
+
+## Tasks Completed
+1. Created a React project using Vite and set up the development environment.
+2. Installed and configured Tailwind CSS for styling.
+3. Installed DaisyUI and applied it for pre-built, themed UI components.
+4. Set up React Router with `BrowserRouter` and created pages: `HomePage`, `CreatePage`, `NoteDetailPage`.
+5. Installed React Hot Toast and configured it globally to show notifications in all components.
+6. Built the basic frontend structure, styled pages, and verified routing and notifications.
+
+---
+
+## Personal Notes
+- DaisyUI is fast, easy, and visually appealing compared to plain Tailwind.
+- Vite provides a super-fast development server and optimized builds.
+- React Hot Toast works globally when added in `main.jsx`.
+- Routing and component structure are clean and modular.
+- Loved using DaisyUI themes; pink/cute UI design achieved.
+
+---
+
+## Concepts Learned
+
+1. **React Project Structure**  
+   - `main.jsx` → Entry point with global providers.  
+   - `App.jsx` → Main UI container.  
+   - `pages/` → Individual page components.  
+   - `components/` → Reusable components.  
+   - `assets/` → Images, fonts, icons.  
+
+2. **Tailwind CSS + DaisyUI**  
+   - Tailwind → Utility-first CSS framework.  
+   - DaisyUI → Pre-built themed components for faster styling.  
+
+3. **React Router**  
+   - `BrowserRouter` wraps the app for SPA navigation.  
+   - `<Route>` renders pages without full reloads.  
+
+4. **React Hot Toast**  
+   - Provides global notifications across all components.  
+   - Easy to trigger toast messages from any child component.
