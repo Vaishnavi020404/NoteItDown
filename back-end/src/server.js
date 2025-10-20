@@ -1,8 +1,11 @@
 import express from "express";
+import cors from "cors";
+import dotenv from "dotenv";
+
 import notesRoutes from "./routes/notesRoutes.js";
 import {connectDB} from "./config/db.js";
-import dotenv from "dotenv";
 import rateLimiter from "./middleware/rateLimiter.js";
+
 
 dotenv.config();
 
@@ -14,6 +17,13 @@ const app = express();
 app.use(express.json()); //to access the title and ocntent otherwise it will show undefined
 
 app.use(rateLimiter);
+app.use(
+  cors({
+    origin: "http://localhost:5173", // allow React frontend
+    methods: ["GET", "POST", "PUT", "DELETE"], // optional
+    credentials: true, // optional, if you ever use cookies or auth
+  })
+);
 
 //simple exmaple of custom middleware
 app.use((req,res,next)=>{
