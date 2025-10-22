@@ -17,8 +17,8 @@ const app = express();
 app.use(
   cors({
     origin: "http://localhost:5173", // allow React frontend
-    methods: ["GET", "POST", "PUT", "DELETE"], // optional
-    credentials: true, // optional, if you ever use cookies or auth
+    // methods: ["GET", "POST", "PUT", "DELETE"], // optional
+    // credentials: true, // optional, if you ever use cookies or auth
   })
 );
 app.use(express.json()); //to access the title and ocntent otherwise it will show undefined
