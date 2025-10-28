@@ -151,3 +151,19 @@
 4. **React Hot Toast**  
    - Provides global notifications across all components.  
    - Easy to trigger toast messages from any child component.
+
+
+
+## 20-Oct-2025
+
+### Tasks Completed
+
+1. **CORS Integration**
+   - Added the `cors` package and middleware to the Express backend to allow requests from the React frontend.
+
+2. **Frontend Data Fetching**
+   - Updated `HomePage.jsx` to fetch notes from the backend API using `axios` and `useEffect`.
+   - Improved state management for notes and the loading state to ensure a smoother and more responsive user experience.
+
+
+   

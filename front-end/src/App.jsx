@@ -3,11 +3,11 @@ import { Routes, Route } from 'react-router';
 import HomePage from './pages/HomePage.jsx';
 import CreatePage from './pages/CreatePage.jsx';
 import NoteDetailPage from './pages/NoteDetailPage.jsx';
-import toast from 'react-hot-toast' ;
+// import toast from 'react-hot-toast' ;
 
 const App = () => {
   return (
-    <div data-theme="valentine">
+    <div data-theme="aqua">
 
       <Routes>
         <Route path='/' element={<HomePage />} />

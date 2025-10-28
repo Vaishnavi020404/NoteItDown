@@ -9,8 +9,8 @@ const NavBar = () => {
         <div className='flex justify-between items-center'>
             <h1 className='text-3xl font-bold text-primary font-mono tracking-tight'>
                 NoteItDown
-            </h1>
-            <div className='flex items-center gap-4'>
+            </h1> 
+            <div className='flex items-center gap-4  '>
                 <Link to={"/create"} className='btn btn-primary'>
                 <PlusIcon className='size-5'/>
                 <span>New Note</span>
