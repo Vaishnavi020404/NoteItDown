@@ -166,4 +166,28 @@
    - Improved state management for notes and the loading state to ensure a smoother and more responsive user experience.
 
 
-   
+## 22-Oct-2025
+
+### Tasks Completed
+
+1. **Rate Limiting**
+   - Replaced the custom rate limiter with **Upstash Ratelimit** in the backend.
+   - Implemented IP-based identification and configured rate limit headers for better scalability and control.
+
+2. **Frontend Enhancements**
+   - Updated `HomePage.jsx` to handle rate limit errors gracefully.
+   - Improved the loading state and displayed notes in a **responsive grid layout** for better UI experience.
+
+3. **Code Cleanup**
+   - Removed unused code and unnecessary comments from `server.js` and `HomePage.jsx`.
+
+
+## 28-Oct-2025
+### Task Completed:
+
+1. Introduced a reusable `NoteCard` component for displaying notes and updated `HomePage` to use it.  
+2. Enhanced `CreatePage` with form handling, validation, and API integration for note creation.  
+3. Updated theme settings, app theme, and project metadata.  
+4. Adjusted rate limiter settings in the backend and added `react-router-dom` dependency.  
+
+
