@@ -116,3 +116,10 @@ app.get("/api/notes") = server listens for requests at that path
 When a client hits /api/notes, this code runs and sends a response
 
 ✅ So the server is running on a host & port (localhost:5001), and /api/notes is just the route on the server.
+
+
+(prev) => prev.filter(...)
+is the same as writing:
+function(prev) {
+  return prev.filter(...);
+}

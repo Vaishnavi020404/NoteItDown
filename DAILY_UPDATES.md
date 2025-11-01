@@ -190,4 +190,22 @@
 3. Updated theme settings, app theme, and project metadata.  
 4. Adjusted rate limiter settings in the backend and added `react-router-dom` dependency.  
 
+### Concepts Learned  
+- Component reusability and prop handling in React.  
+- Form validation and controlled components.  
+- Using Axios for API POST requests.  
+- React Router navigation and routing best practices. 
+
+## 01-Nov-2025  
+
+### Tasks Completed  
+- Added **note deletion** in `NoteCard` with instant UI update.  
+- Created a **centralized Axios instance** and updated all API calls.  
+- Added **NotesNotFound** component for empty note lists.  
+- Updated **CORS origin** in backend for proper frontend connection.  
+- Cleaned up code and improved overall **UI consistency**.  
+
+### Concepts Learned  
+- React state updates after delete operations.  
+- Reusable Axios setup for cleaner API handling.  
 

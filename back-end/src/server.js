@@ -16,7 +16,7 @@ const app = express();
 //middleware
 app.use(
   cors({
-    origin: "http://localhost:5173", // allow React frontend
+    origin: "http://localhost:5174", // allow React frontend
     // methods: ["GET", "POST", "PUT", "DELETE"], // optional
     // credentials: true, // optional, if you ever use cookies or auth
   })
