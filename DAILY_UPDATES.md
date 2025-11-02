@@ -209,3 +209,10 @@
 - React state updates after delete operations.  
 - Reusable Axios setup for cleaner API handling.  
 
+## 02-Nov-2025  
+
+### Tasks Completed  
+- Added full **note editing and deletion** functionality in `NoteDetailPage`, including complete API integration.  
+- Implemented **loading states** and user **feedback messages** for better UX.  
+- Updated **CORS origin** in `server.js` for smoother frontend-backend communication.  
+- Removed unnecessary `font-bold` class from **NavBar title** for cleaner UI. 
