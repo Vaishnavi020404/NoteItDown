@@ -1,7 +1,7 @@
 NoteItDown
 
 Project Description:
-ThinkNotes is a full-stack notes application built with Node.js and Express. It demonstrates REST API design, CRUD operations, and full-stack architecture.
+NoteItDown is a full-stack notes application built with Node.js and Express. It demonstrates REST API design, CRUD operations, and full-stack architecture.
 
 Project Structure:
 
@@ -19,7 +19,7 @@ POST /api/notes → Create a new note
 
 Setup & Run:
 
-git clone https://github.com/Vaishnavi020404/ThinkNotes.git
+git clone https://github.com/Vaishnavi020404/NoteItDown.git
 cd NoteItDown/back-end
 npm install
 npm run dev

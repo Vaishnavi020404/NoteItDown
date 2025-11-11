@@ -17,7 +17,6 @@ const NoteCard = ({note,setNotes}) => {
     }catch(error){
       console.log("Error deleting note:",error);
       toast.error("Failed to delete note. Please try again later.");
-
     }
   };
   

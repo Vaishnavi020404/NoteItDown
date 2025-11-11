@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar'
 import RateLimitedUI from '../components/RateLimitedUI'
 import { toast } from 'react-hot-toast'
 import api from '../lib/axios'
+import NotesNotFound from '../components/NotesNotFound'
 
 import NoteCard from '../components/NoteCard'
 const HomePage = () => {
