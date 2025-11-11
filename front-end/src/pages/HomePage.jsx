@@ -30,8 +30,8 @@ const HomePage = () => {
       }
     }
 
-    fetchNotes() // Call it inside useEffect
-  }, []) // Empty dependency array is correct
+    fetchNotes() 
+  }, []) 
 
   return (
     <div className='min-h-screen'>
