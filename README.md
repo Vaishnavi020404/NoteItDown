@@ -21,6 +21,3 @@
 ## Live Demo
 Check out the deployed app here: [Your Live App URL]
 
-## Notes
-- The frontend fetches and posts data via the backend API dynamically.
-- Designed for simplicity and scalability, making it easy to expand with additional features like authentication or categories.

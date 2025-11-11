@@ -1,0 +1,20 @@
+{
+  "name": "noteitdown",
+  "version": "1.0.0",
+  "description": "**NoteItDown** is a full-stack notes application built with Node.js, Express, and React. It allows users to create, view, and manage notes seamlessly. The app demonstrates REST API design, CRUD operations, and a modern full-stack architecture.",
+  "main": "index.js",
+  "scripts": {
+    "build":"npm install --prefix back-end && npm install --prefix front-end && npm run build --prefix front-end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaishnavi020404/NoteItDown.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vaishnavi020404/NoteItDown/issues"
+  },
+  "homepage": "https://github.com/Vaishnavi020404/NoteItDown#readme"
+}
