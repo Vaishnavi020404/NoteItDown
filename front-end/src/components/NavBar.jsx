@@ -7,7 +7,7 @@ const NavBar = () => {
   return <header className=" bg-base-300 border-b border-base-content/10">
     <div className="mx-auto max-w-6xl p-4">
         <div className='flex justify-between items-center'>
-            <h1 className='text-3xl  text-primary font-mono tracking-tight'>
+            <h1 className='text-3xl  text-primary font-semibold tracking-tight'>
                 NoteItDown
             </h1> 
             <div className='flex items-center gap-4  '>
