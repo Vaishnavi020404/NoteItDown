@@ -1,8 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { ArrowLeftIcon } from 'lucide-react';
 import { toast } from 'react-hot-toast';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate} from 'react-router-dom';
 import api from '../lib/axios';
 
 const CreatePage = () => {
