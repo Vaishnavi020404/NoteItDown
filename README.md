@@ -19,5 +19,5 @@
 - `POST /api/notes` → Create a new note
 
 ## Live Demo
-Check out the deployed app here: [Your Live App URL]
+Check out the deployed app here: https://noteitdown-7lyn.onrender.com
 
